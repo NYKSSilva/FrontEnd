@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--fonte-padrao);
+    background: var(--cor-de-fundo);
+    height: 100vh;
+    width: 100vw;
+    min-width: 25rem;
+}
+.pilarlinha{
+    display: block;
+    margin-bottom: 0.8rem;
+    height: 3vh;
+}
