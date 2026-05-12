@@ -1,0 +1,20 @@
+.input{
+    width: 100%;
+    padding: 0.625rem;
+    border: 1px solid var(--cor-divisor);
+    font-family: var(--fonte-padrao);
+    background-color: #ffff;
+    transition: border-color 0.3s ease;
+
+}
+.input:focus{
+    outline: none;
+    border-color: var(--cor-prmaria);
+    box-shadow: 0 0 0 2px var(--cor-prmaria-clara);
+}
+.input:disabled{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-secundario);
+    cursor: not-allowed;
+    
+}

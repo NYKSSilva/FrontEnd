@@ -6,8 +6,11 @@ interface BotaoPadraoProps extends
 
  }
 
-export function BotaoPadrao({className, children, ...rest}:BotaoPadraoProps){
+export function BotaoPadrao({className, children, ...rest}
+        :BotaoPadraoProps){
         return(
-           <button classNAme={´${styles.botao} ${className || ''}´}>{children}</button>
+           <button 
+           className={`${styles.botao} ${className || ''}`}
+           >{children}</button>
         )
 }

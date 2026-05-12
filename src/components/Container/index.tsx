@@ -10,7 +10,7 @@ export function Container({children}:ContainerProps){
         <div className = {styles.container}>
             {children}
         </div>
-        <h1>Ola do container</h1>
+        <h1></h1>
         </>
     )
 }
