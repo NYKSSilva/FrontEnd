@@ -1,15 +1,46 @@
 .listaContainer{
+    background-color: #ffff;
+    padding: 1.25rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0, 5);
 
 }
-.titulo{
+.buscaContainer{
+    margin-bottom: 1.25rem ;
+}
 
+.titulo{
+color: var(--cor-primaria);
+margin-bottom: 1.25rem;
 }
 .tabela{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
 
+}
+.tabela th, .tabela td{
+    padding: 0.625rem;
+    border-bottom: 0.01rem solid var(--cor-divisor);
+}
+.tabela th{
+    border-bottom: 2px solid var(--cor-divisor);
 }
 .actionButton{
+    margin-right: 0.625rem;
+    cursor: pointer;
+    background: none;
+    transition: filter 0.3s ease;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.actionButton:hover{
+    filter:brightness(0.5)
 
 }
-.alinhaBotao{
+.btnExcluir{
+    color: var(--erro);
 
 }

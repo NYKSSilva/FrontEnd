@@ -67,8 +67,7 @@ export function MainForm({aoAdicionar, aoAtualizar, cursoEmEdicao}:MainFormProps
                         Cadastrar curso
                         {cursoEmEdicao? 'Editar Curso': 'Alterar Curso'} 
                     </h2>
-                    <form //onSubmit = {cadastrarCurso}
-                    >Olá do form</form>
+                    <form onSubmit = {cadastrarCurso}>
                     <div className={styles.pularLinha}>
                         <label htmlFor='nomeCurso' className={styles.label}>Nome curso:</label>
                         <InputPadrao
@@ -100,10 +99,10 @@ export function MainForm({aoAdicionar, aoAtualizar, cursoEmEdicao}:MainFormProps
                     </div>
                     <div className={styles.alinharBotao}>
                         <BotaoPadrao type='submit'>
-                            {/* {cursoEmEdicao? 'Salva alteração': 'Inserir curso'} */}
-                            Botao teste
+                            {cursoEmEdicao? 'Salva alteração': 'Inserir curso'}
                         </BotaoPadrao>
                     </div>
+                    </form>
                     </section>
             </Container>
         </>

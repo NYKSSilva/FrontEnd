@@ -11,5 +11,5 @@ export function InputPadrao({className, ...rest}:InputPadraoProps){
         className={`${styles.input} ${className || ''}`}
         {...rest}
         />
-    )
+    );
 }
