@@ -1,8 +1,16 @@
 .formularioContainer{
-    background-color: #ffff;
+    background-color: 	#faf0e6;
     padding: 1.25rem;
     border-radius: 0.4rem;
-    box-shadow: 0.2rem 0.4rem;
+    box-shadow: 0.3rem 0.4rem 2.5px #916a6a;
+/* 
+#c9a98b
+#d8bfa6
+#e6d2be
+#4a1515
+#3b1010
+#2b0c0c
+*/
 
 }
 .titulo{
@@ -11,7 +19,7 @@
 
 }
 .label{
-    color: var(--cor-text-secundario);
+    color: #4a1515;
     margin-bottom: 0.3125rem;
     font-weight: bold;
 }

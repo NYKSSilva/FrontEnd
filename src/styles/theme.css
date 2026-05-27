@@ -1,6 +1,6 @@
 :root{
     /*Cores primarias*/
-    --cor-primaria: #0800FF;
+    --cor-primaria: #780606;
     --cor-primaria-clara: #62b2eb;
     --cor-primaria-escura: #2a6ba1;
 
@@ -15,7 +15,7 @@
     --cor-info: #62b2eb;
 
     /*Cores secundarias e de fundo*/
-        --cor-texto-principal: #01090f;
+        --cor-texto-principal: #4a1515;
         --cor-texto-secundario: #5c5c5c;
         --cor-texto-contraste: #ffffff;
         --cor-divisor:#e0e0e0e0;
@@ -23,3 +23,9 @@
         --fonte-padrao:"Helvetica", "sans-serif"
 
 }
+
+/* #895129
+#E9CCB7
+#E2B99D
+#DAA783
+*/
